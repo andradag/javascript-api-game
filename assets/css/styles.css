@@ -1,0 +1,101 @@
+:root {
+  --midnight-blue: #03045eff;
+  --star-command-blue: #0077b6ff;
+  --pacific-blue: #00b4d8ff;
+  --middle-blue: #90e0efff;
+  --light-cyan: #caf0f8ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Dancing Script", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+
+.header {
+  text-align: center;
+  padding: 30px 10px;
+  background-color: var(--midnight-blue);
+  color: var(--middle-blue);
+}
+
+.main {
+  margin: 20px 10px;
+  padding: 40px 20px;
+}
+
+.start-container {
+  text-align: center;
+}
+
+.btn {
+  padding: 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: var(--star-command-blue);
+  color: var(--light-cyan);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.btn:hover {
+  color: var(--midnight-blue);
+  cursor: pointer;
+}
+
+.word-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.letter {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 15px;
+  border: 1px solid var(--midnight-blue);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.timer {
+  text-align: center;
+}
+
+.timer span {
+  color: var(--pacific-blue);
+}
+
+.game-container {
+  text-align: center;
+  font-size: 32px;
+  text-transform: uppercase;
+}
+
+.letters-container h3 {
+  text-align: center;
+}
+
+.letters-list {
+  list-style: none;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: var(--midnight-blue);
+  color: var(--middle-blue);
+  font-size: 20px;
+}
+
+.letters-list li {
+  padding: 10px;
+}
